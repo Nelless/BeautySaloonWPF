@@ -76,6 +76,10 @@
     <Compile Include="View\Pages\RegistrationPage.xaml.cs">
       <DependentUpon>RegistrationPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="Assets\Dictionaries\Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -128,10 +132,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Dictionaries\" />
-    <Folder Include="Assets\Fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Assets\Images\beauty_logo.ico" />
     <Resource Include="Assets\Images\beauty_logo.png" />
@@ -232,6 +233,9 @@
     <Resource Include="Assets\Images\Category\peeling.jpg" />
     <Resource Include="Assets\Images\Category\screen-0.jpg" />
     <Resource Include="Assets\Images\Category\thumbs_57cdcb39c34d2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\Fonts.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
