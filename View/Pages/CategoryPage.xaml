@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:BeautySaloon.View.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="CategoryPage">
+      Title="Категрии">
     <Page.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="HorizontalAlignment" Value="Center"/>
@@ -39,12 +39,19 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <!--Здесь выводится информация об услугах по категориям-->
+                        <StackPanel>
+                            <Image Source="/BeautySaloon;component/Assetss/Images/beauty_logo.ico"  Margin="5"/>
+                            <TextBlock>Мужской зал</TextBlock>
+                        </StackPanel>
+                        <StackPanel>
+                            <Image Source="/BeautySaloon;component/Assetss/Images/beauty_logo.ico"  Margin="5"/>
+                            <TextBlock>Женский зал</TextBlock>
+                        </StackPanel>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Grid HorizontalAlignment="Right" Grid.RowSpan="2"  Width="0" >
+        <Grid HorizontalAlignment="Right" Grid.RowSpan="2" Width="0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"></RowDefinition>
                 <RowDefinition Height="5*"></RowDefinition>

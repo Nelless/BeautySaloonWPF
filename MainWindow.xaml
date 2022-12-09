@@ -44,7 +44,7 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         
-        <Image Source="Assets/Images/beauty_logo.ico"  Margin="5"/>
+        <Image Source="Assetss/Images/beauty_logo.ico"  Margin="5"/>
         <TextBlock Text="{Binding ElementName=MainFrame, Path=Content.Title}"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
             <Button x:Name="Back_Button"  Opacity="0.8"  Content="Назад" Click="Back_Button_Click"></Button>

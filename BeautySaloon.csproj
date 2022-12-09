@@ -76,7 +76,7 @@
     <Compile Include="View\Pages\RegistrationPage.xaml.cs">
       <DependentUpon>RegistrationPage.xaml</DependentUpon>
     </Compile>
-    <Page Include="Assets\Dictionaries\Styles.xaml">
+    <Page Include="Assetss\Dictionaries\Styles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -123,7 +123,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Assets\Images\Clients\loginDEyua2018" />
+    <None Include="Assetss\Images\loginDEyua2018" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,110 +132,105 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Assets\Images\beauty_logo.ico" />
-    <Resource Include="Assets\Images\beauty_logo.png" />
+    <Resource Include="Assetss\Fonts\Fonts.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Images\Clients\loginDEaxm2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEbid2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEcui2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEcxr2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEdat2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEdgp2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEdsm2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEefa2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEemw2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEfsp2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEgcl2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEggp2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEgho2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEgju2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEill2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEisy2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEitt2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEiyy2018.gif" />
-    <Resource Include="Assets\Images\Clients\loginDEjrd2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEket2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDElag2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEnoq2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEocb2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEoni2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEosl2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEpri2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEpwa2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEqda2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDErvs2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDErwk2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEsds2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEshj2018.gif" />
-    <Resource Include="Assets\Images\Clients\loginDEsjj2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEslj2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEsmg2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEteq2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEtic2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEuwn2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEvem2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEvkg2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEwdm2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEwfv2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDExeu2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDExhd2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDExsu2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEykk2018.gif" />
-    <Resource Include="Assets\Images\Clients\loginDEytk2018.png" />
-    <Resource Include="Assets\Images\Clients\loginDEzfi2018.jpg" />
-    <Resource Include="Assets\Images\Clients\loginDEzre2018.jpg" />
+    <Resource Include="Assetss\Images\122454.png" />
+    <Resource Include="Assetss\Images\96.png" />
+    <Resource Include="Assetss\Images\beauty_logo.ico" />
+    <Resource Include="Assetss\Images\beauty_logo.png" />
+    <Resource Include="Assetss\Images\face.png" />
+    <Resource Include="Assetss\Images\loginDEaxm2018.png" />
+    <Resource Include="Assetss\Images\loginDEbid2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEcui2018.png" />
+    <Resource Include="Assetss\Images\loginDEcxr2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEdat2018.png" />
+    <Resource Include="Assetss\Images\loginDEdgp2018.png" />
+    <Resource Include="Assetss\Images\loginDEdsm2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEefa2018.png" />
+    <Resource Include="Assetss\Images\loginDEemw2018.png" />
+    <Resource Include="Assetss\Images\loginDEfsp2018.png" />
+    <Resource Include="Assetss\Images\loginDEgcl2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEggp2018.png" />
+    <Resource Include="Assetss\Images\loginDEgho2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEgju2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEill2018.png" />
+    <Resource Include="Assetss\Images\loginDEisy2018.png" />
+    <Resource Include="Assetss\Images\loginDEitt2018.png" />
+    <Resource Include="Assetss\Images\loginDEiyy2018.gif" />
+    <Resource Include="Assetss\Images\loginDEjrd2018.png" />
+    <Resource Include="Assetss\Images\loginDEket2018.png" />
+    <Resource Include="Assetss\Images\loginDElag2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEnoq2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEocb2018.png" />
+    <Resource Include="Assetss\Images\loginDEoni2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEosl2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEpri2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEpwa2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEqda2018.png" />
+    <Resource Include="Assetss\Images\loginDErvs2018.jpg" />
+    <Resource Include="Assetss\Images\loginDErwk2018.png" />
+    <Resource Include="Assetss\Images\loginDEsds2018.png" />
+    <Resource Include="Assetss\Images\loginDEshj2018.gif" />
+    <Resource Include="Assetss\Images\loginDEsjj2018.png" />
+    <Resource Include="Assetss\Images\loginDEslj2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEsmg2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEteq2018.png" />
+    <Resource Include="Assetss\Images\loginDEtic2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEuwn2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEvem2018.png" />
+    <Resource Include="Assetss\Images\loginDEvkg2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEwdm2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEwfv2018.png" />
+    <Resource Include="Assetss\Images\loginDExeu2018.png" />
+    <Resource Include="Assetss\Images\loginDExhd2018.png" />
+    <Resource Include="Assetss\Images\loginDExsu2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEykk2018.gif" />
+    <Resource Include="Assetss\Images\loginDEytk2018.png" />
+    <Resource Include="Assetss\Images\loginDEzfi2018.jpg" />
+    <Resource Include="Assetss\Images\loginDEzre2018.jpg" />
+    <Resource Include="Assetss\Images\makeup.jpg" />
+    <Resource Include="Assetss\Images\man.png" />
+    <Resource Include="Assetss\Images\mask.jpeg" />
+    <Resource Include="Assetss\Images\piling.jpg" />
+    <Resource Include="Assetss\Images\soliarij.jpg" />
+    <Resource Include="Assetss\Images\брови.png" />
+    <Resource Include="Assetss\Images\Гречишный массаж.jpg" />
+    <Resource Include="Assetss\Images\Декорирование нарощенных ресниц стразами.jpg" />
+    <Resource Include="Assetss\Images\Демакияж.jpg" />
+    <Resource Include="Assetss\Images\Депиляция воском.jpg" />
+    <Resource Include="Assetss\Images\Европейский маникюр.jpg" />
+    <Resource Include="Assetss\Images\ИК-сауна.jpg" />
+    <Resource Include="Assetss\Images\Классический маникюр.png" />
+    <Resource Include="Assetss\Images\Комбинированный маникюр.jpg" />
+    <Resource Include="Assetss\Images\Контурная пластика.jpg" />
+    <Resource Include="Assetss\Images\массаж.jpg" />
+    <Resource Include="Assetss\Images\Мезотерапия.jpg" />
+    <Resource Include="Assetss\Images\Моделирование ресниц.jpg" />
+    <Resource Include="Assetss\Images\ногти.png" />
+    <Resource Include="Assetss\Images\Окрашивание бровей.jpg" />
+    <Resource Include="Assetss\Images\Парафинотерапия.jpg" />
+    <Resource Include="Assetss\Images\Покрытие ногтей гель-лаком.jpg" />
+    <Resource Include="Assetss\Images\Полировка ногтей.jpg" />
+    <Resource Include="Assetss\Images\Прессотерапия.jpg" />
+    <Resource Include="Assetss\Images\Прокол ушей пистолетом.png" />
+    <Resource Include="Assetss\Images\Ресницы.png" />
+    <Resource Include="Assetss\Images\Снятие ресниц.jpg" />
+    <Resource Include="Assetss\Images\Стоун-терапия.jpg" />
+    <Resource Include="Assetss\Images\стрижка.png" />
+    <Resource Include="Assetss\Images\Укрепление ногтей гелем.jpg" />
+    <Resource Include="Assetss\Images\Шугаринг.jpg" />
+    <Resource Include="Assetss\Images\Экспресс SPA.png" />
+    <Resource Include="Assetss\Images\Экспресс-педикюр.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Images\Service\122454.png" />
-    <Resource Include="Assets\Images\Service\96.png" />
-    <Resource Include="Assets\Images\Service\face.png" />
-    <Resource Include="Assets\Images\Service\makeup.jpg" />
-    <Resource Include="Assets\Images\Service\man.png" />
-    <Resource Include="Assets\Images\Service\mask.jpeg" />
-    <Resource Include="Assets\Images\Service\piling.jpg" />
-    <Resource Include="Assets\Images\Service\soliarij.jpg" />
-    <Resource Include="Assets\Images\Service\брови.png" />
-    <Resource Include="Assets\Images\Service\Гречишный массаж.jpg" />
-    <Resource Include="Assets\Images\Service\Декорирование нарощенных ресниц стразами.jpg" />
-    <Resource Include="Assets\Images\Service\Демакияж.jpg" />
-    <Resource Include="Assets\Images\Service\Депиляция воском.jpg" />
-    <Resource Include="Assets\Images\Service\Европейский маникюр.jpg" />
-    <Resource Include="Assets\Images\Service\ИК-сауна.jpg" />
-    <Resource Include="Assets\Images\Service\Классический маникюр.png" />
-    <Resource Include="Assets\Images\Service\Комбинированный маникюр.jpg" />
-    <Resource Include="Assets\Images\Service\Контурная пластика.jpg" />
-    <Resource Include="Assets\Images\Service\массаж.jpg" />
-    <Resource Include="Assets\Images\Service\Мезотерапия.jpg" />
-    <Resource Include="Assets\Images\Service\Моделирование ресниц.jpg" />
-    <Resource Include="Assets\Images\Service\ногти.png" />
-    <Resource Include="Assets\Images\Service\Окрашивание бровей.jpg" />
-    <Resource Include="Assets\Images\Service\Парафинотерапия.jpg" />
-    <Resource Include="Assets\Images\Service\Покрытие ногтей гель-лаком.jpg" />
-    <Resource Include="Assets\Images\Service\Полировка ногтей.jpg" />
-    <Resource Include="Assets\Images\Service\Прессотерапия.jpg" />
-    <Resource Include="Assets\Images\Service\Прокол ушей пистолетом.png" />
-    <Resource Include="Assets\Images\Service\Ресницы.png" />
-    <Resource Include="Assets\Images\Service\Снятие ресниц.jpg" />
-    <Resource Include="Assets\Images\Service\Стоун-терапия.jpg" />
-    <Resource Include="Assets\Images\Service\стрижка.png" />
-    <Resource Include="Assets\Images\Service\Укрепление ногтей гелем.jpg" />
-    <Resource Include="Assets\Images\Service\Шугаринг.jpg" />
-    <Resource Include="Assets\Images\Service\Экспресс SPA.png" />
-    <Resource Include="Assets\Images\Service\Экспресс-педикюр.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Images\Category\36703850_22221538278.jpg" />
-    <Resource Include="Assets\Images\Category\images_20.jpg" />
-    <Resource Include="Assets\Images\Category\img_974x6322018_06_1.jpg" />
-    <Resource Include="Assets\Images\Category\peeling.jpg" />
-    <Resource Include="Assets\Images\Category\screen-0.jpg" />
-    <Resource Include="Assets\Images\Category\thumbs_57cdcb39c34d2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Fonts\Fonts.txt" />
+    <Resource Include="Assetss\Images\36703850_22221538278.jpg" />
+    <Resource Include="Assetss\Images\images_20.jpg" />
+    <Resource Include="Assetss\Images\img_974x6322018_06_1.jpg" />
+    <Resource Include="Assetss\Images\peeling.jpg" />
+    <Resource Include="Assetss\Images\screen-0.jpg" />
+    <Resource Include="Assetss\Images\thumbs_57cdcb39c34d2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
